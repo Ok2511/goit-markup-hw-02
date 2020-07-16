@@ -4,39 +4,95 @@ ul {
 
 body {
   background: #ffffff;
-<!-- padding-top: 40px; 
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px; -->
-  font-family:"Roboto";
+  font-family: "Roboto", sans-serif;
 }
-.logo-web {
-  font-family: "Raleway";
+
+button {
+  font-family: inherit;
+}
+
+.logo .logo-web {
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #2196f3;
 }
-.logo-studio {
-  font-family: "Raleway";
+
+.logo .logo-studio {
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #000000;
 }
-.nav-list {
-  font-family: "Roboto";
-  font-size: 14px;
+
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item .navigation-list-link {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   color: #212121;
 }
 
-.address-list {
-  font-family: "Roboto";
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+
+.contacts-address-top-mail .contacts-address-top-mail-link {
   font-size: 12px;
   font-weight: 500;
   color: #757575;
 }
 
-.nav-link: hover,
-.nav-link: focus {
+.contacts-address-top-mail-link:hover,
+.contacts-address-top-mail-link:focus {
+  color: #2196f3;
+}
+
+.contacts-address-top-phone .contacts-address-top-phone-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.contacts-address-top-phone-link:hover,
+.contacts-address-top-phone-link:focus {
+  color: #2196f3;
+}
+
+.contacts-address-post .contacts-address-post-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.contacts-address-post-link:hover,
+.contacts-address-post-link:focus {
+  color: #2196f3;
+}
+
+.contacts-address-mail .contacts-address-mail-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.contacts-address-mail-link:hover,
+.contacts-address-mail-link:focus {
+  color: #2196f3;
+}
+
+.contacts-address-phone .contacts-address-phone-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.contacts-address-phone-link:hover,
+.contacts-address-phone-link:focus {
   color: #2196f3;
 }
