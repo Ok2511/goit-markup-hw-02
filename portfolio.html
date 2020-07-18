@@ -6,8 +6,10 @@
     <title>Вебстудия</title>
     <link rel="normalize" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto:wght@400;500;700;900&sidebar.open"
       rel="stylesheet"
@@ -59,135 +61,151 @@
     </header>
 
     <main>
-      <h1 hidden>Портфолио</h1>
+      <section class="portfolio">
+        <h1 class="portfolio-title" hidden>Портфолио</h1>
 
-      <!-- Фильтры -->
-      <ul>
-        <li>
-          <button type="button">Все</button>
-        </li>
-        <li>
-          <button type="button">Веб-сайты</button>
-        </li>
-        <li>
-          <button type="button">Приложения</button>
-        </li>
-        <li>
-          <button type="button">Дизайн</button>
-        </li>
-        <li>
-          <button type="button">Маркетинг</button>
-        </li>
-      </ul>
+        <!-- Фильтры -->
+        <ul class="portfolio-filter">
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Все
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Веб-сайты
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Приложения
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Дизайн
+            </button>
+          </li>
+          <li class="portfolio-filter-button">
+            <button class="portfolio-filter-button-text" type="button">
+              Маркетинг
+            </button>
+          </li>
+        </ul>
 
-      <!-- Проекты -->
-      <ul>
-        <li>
-          <img
-            src="./images/portfolio/technocriak.svg"
-            alt="Технокряк"
-            width="354"
-            height="294"
-          />
-          <p>
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </p>
-          <h2>технокряк</h2>
-          <p>
-            Веб-сайт
-          </p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/poster.svg"
-            alt="Постер"
-            width="354"
-            height="294"
-          />
-          <h2>Постер New Orlean vs Golden ...</h2>
-          <p>
-            Дизайн
-          </p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/seafood.svg"
-            alt="Ресторан"
-            width="354"
-            height="294"
-          />
-          <h2>Ресторан Seafood</h2>
-          <p>
-            Приложение
-          </p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/prime.svg"
-            alt="Проект Prime"
-            width="354"
-            height="294"
-          />
-          <h2>Проект Prime</h2>
-          <p>
-            Маркетинг
-          </p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/boxes.svg"
-            alt="Проект Boxes"
-            width="354"
-            height="294"
-          />
-          <h2>Проект Boxes</h2>
-          <p>
-            Приложение
-          </p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/borders.svg"
-            alt="Inspiration has no Borders"
-            width="354"
-            height="294"
-          />
-          <h2>Inspiration has no Borders</h2>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/book.svg"
-            alt="Издание Limited Edition"
-            width="354"
-            height="294"
-          />
-          <h2>Издание Limited Edition</h2>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/lab.svg"
-            alt="Проект LAB"
-            width="354"
-            height="294"
-          />
-          <h2>Проект LAB</h2>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/business.svg"
-            alt="Growing Business"
-            width="354"
-            height="294"
-          />
-          <h2>Growing Business</h2>
-          <p>Приложение</p>
-        </li>
-      </ul>
+        <!-- Проекты -->
+        <ul class="projects">
+          <li class="projects-1">
+            <img
+              src="./images/portfolio/technocriak.svg"
+              alt="Технокряк"
+              width="354"
+              height="294"
+            />
+            <p class="projects-1-text">
+              Технокряк это современная площадка распространения коронавируса.
+              Компании используют эту платформу для цифрового шпионажа и атак на
+              защищённые сервера конкурентов.
+            </p>
+            <h2 class="projects-title">Технокряк</h2>
+            <p class="projects-1-type">
+              Веб-сайт
+            </p>
+          </li>
+          <li class="projects-2">
+            <img
+              src="./images/portfolio/poster.svg"
+              alt="Постер"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">
+              Постер <span lang="en">New Orlean vs Golden ...</span>
+            </h2>
+            <p class="projects-2-type">
+              Дизайн
+            </p>
+          </li>
+          <li class="projects-3">
+            <img
+              src="./images/portfolio/seafood.svg"
+              alt="Ресторан"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">
+              Ресторан <span lang="en">Seafood</span>
+            </h2>
+            <p class="projects-3-type">
+              Приложение
+            </p>
+          </li>
+          <li class="projects-4">
+            <img
+              src="./images/portfolio/prime.svg"
+              alt="Проект Prime"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Проект <span lang="en">Prime</span></h2>
+            <p class="projects-4-type">
+              Маркетинг
+            </p>
+          </li>
+          <li class="projects-5">
+            <img
+              src="./images/portfolio/boxes.svg"
+              alt="Проект Boxes"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Проект <span lang="en">Boxes</span></h2>
+            <p class="projects-5-type">
+              Приложение
+            </p>
+          </li>
+          <li class="projects-6">
+            <img
+              src="./images/portfolio/borders.svg"
+              alt="Inspiration has no Borders"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title" lang="en">Inspiration has no Borders</h2>
+            <p class="projects-6-type">Веб-сайт</p>
+          </li>
+          <li class="projects-7">
+            <img
+              src="./images/portfolio/book.svg"
+              alt="Издание Limited Edition"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Издание <span lang="en">Limited Edition</span></h2>
+            <p class="projects-7-type">Дизайн</p>
+          </li>
+          <li class="projects-8">
+            <img
+              src="./images/portfolio/lab.svg"
+              alt="Проект LAB"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title">Проект <span lang="en">LAB</span></h2>
+            <p class="projects-8-type">Маркетинг</p>
+          </li>
+          <li class="projects-9">
+            <img
+              src="./images/portfolio/business.svg"
+              alt="Growing Business"
+              width="354"
+              height="294"
+            />
+            <h2 class="projects-title" lang="en">Growing Business</h2>
+            <p class="projects-9-type">Приложение</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
@@ -207,14 +225,9 @@
               >
             </li>
             <li class="contacts-address-mail">
-              <a
-                class="contacts-address-mail-link"
-                href="mail:info@devstudio.com"
-                ><img
-                  src="./images/header/e-mail.svg"
-                  alt="info@devstudio.com"
-                />
-                info@devstudio.com</a
+              <a class="contacts-address-mail-link" href="mail:info@example.com"
+                ><img src="./images/header/e-mail.svg" alt="info@example.com" />
+                info@example.com</a
               >
             </li>
             <li class="contacts-address-phone">
@@ -231,7 +244,7 @@
       </div>
 
       <div>
-        <b>присоединяйтесь</b>
+        <b class="text-footer">присоединяйтесь</b>
         <ul>
           <li>
             <a href=""
