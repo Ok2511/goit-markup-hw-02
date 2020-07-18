@@ -240,7 +240,7 @@ button {
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
-  line-height: 1.17x;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -283,8 +283,8 @@ button {
   background: #f5f4fa;
 }
 
-.portfolio-filter-button: hover;
-.portfolio-filter-button: fokus {
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
   background: #2196f3;
 }
 
@@ -299,8 +299,8 @@ button {
   color: #212121;
 }
 
-.portfolio-filter-button-text: hover;
-.portfolio-filter-button-text: fokus {
+.portfolio-filter-button-text:hover,
+.portfolio-filter-button-text:focus {
   color: #ffffff;
 }
 
