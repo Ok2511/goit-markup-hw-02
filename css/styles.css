@@ -164,7 +164,7 @@ footer {
 .hero-section-heading {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
   text-align: center;
@@ -308,15 +308,10 @@ footer {
   background: #f5f4fa;
 }
 
-.portfolio-filter-button:hover,
-.portfolio-filter-button:focus {
-  background: #2196f3;
-}
-
 .portfolio-filter-button-text {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -327,7 +322,7 @@ footer {
 .portfolio-filter-button-text:hover,
 .portfolio-filter-button-text:focus {
   color: #ffffff;
-  background: #757575;
+  background: #2196f3;
 }
 
 .projects-1-text {
